@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RLS Guincho 24Horas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/tow-truck (1).png" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Cabeçalho da página -->
+
+    <header>
+
+        <div class="div-icon">
+            <img src="imagens/tow-truck (1).png" alt="LOGO DA EMPRESA">
+        </div>
+
+        <div class="div-title">
+            <h1> RLS GUINCHO 24HORAS</h1>
+        </div>
+
+        <!-- menu div -->
+
+        <div class="list-menu">
+
+            <ul>
+
+                <li>
+                    <a href="https://wa.me/5511976512268?text=%20SOLICITAÇÃO%20DE%20GUINCHO%0A%0ATipo%20de%20serviço:%0AVeículo:%0ALocalização%20atual:%0ADestino:%0AUrgência:"
+                        target="_blank" class="btn-contato">
+                        Contato
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" onclick="abrirPopup()">SOBRE NÓS</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </header>
+
+    <!-- fim do header -->
+
+    <!-- primeira section -->
+
+    <section class="section-01">
+
+        <div class="div-01">
+            <img src="imagens/serv0.jpg" alt="Serviço de reboque" class="img-section-01">
+        </div>
+
+        <div class="div-02">
+            <p>
+                <span>Guincho 24Horas</span>, atendendo com a melhor eficiência
+            </p>
+        </div>
+
+    </section>
+
+    <main>
+        <!-- segunda section -->
+
+        <section class="section-02" id="batata">
+
+            <div class="div-icon">
+            </div>
+
+            <div class="paragrafo-section-2">
+                <h2>Como é nosso serviço?</h2>
+                <p>
+                    Oferecemos serviço de guincho 24 horas com atendimento rápido, seguro e profissional.
+                    Estamos sempre prontos para ajudar em situações de emergência, como pane mecânica,
+                    acidentes ou transporte de veículos. Atuamos com responsabilidade, agilidade e preço justo,
+                    garantindo que seu veículo chegue ao destino com total segurança.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- terceira section -->
+
+    <section class="section-03" id="contato">
+
+        <a href="tel:+55(11)97651-2268" class="btn-ligar">
+            Contato Direto
+        </a>
+
+    </section>
+
+    <!-- quarta section -->
+
+    <section class="section-04">
+
+        <div class="div-caixa">
+            <h2>Atendimento Rápido</h2>
+            <p>
+                Atendimento 24 horas para emergências na estrada ou na cidade.
+                Nossa equipe está sempre pronta para ajudar.
+            </p>
+        </div>
+
+        <div class="div-img">
+
+            <img src="imagens/serv1.jpg" alt="Serviço de guincho">
+
+            <img src="imagens/guincho-moto.jpg" alt="Guincho de moto">
+
+        </div>
+
+        <div class="div-caixa">
+            <p>
+                Transporte seguro para carros e motos. Trabalhamos com equipamentos
+                adequados para garantir a segurança do seu veículo.
+            </p>
+        </div>
+    </section>
+
+    <div id="popup-sobre" class="popup">
+        <div class="popup-conteudo">
+            <span class="fechar" onclick="fecharPopup()">&times;</span>
+            <h2>Sobre Nós</h2>
+            <p>
+                Oferecemos serviço de guincho 24 horas com atendimento rápido e seguro.
+                Atuamos em emergências como pane mecânica, acidentes e transporte de veículos,
+                garantindo que seu veículo chegue ao destino com total segurança.
+            </p>
+        </div>
+    </div>
+
+    <script>
+        function abrirPopup() {
+            document.getElementById("popup-sobre").style.display = "flex";
+        }
+        function fecharPopup() {
+            document.getElementById("popup-sobre").style.display = "none";
+        }
+    </script>
+
+    <footer>
+        <p>© 2026 RLS Guincho 24Horas - Todos os direitos reservados</p>
+    </footer>
+
+</body>
+
+</html>
