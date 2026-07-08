@@ -154,3 +154,95 @@ right:15px;
 font-size:25px;
 cursor:pointer;
 }
+
+/* ========================= */
+/* RESPONSIVIDADE */
+/* ========================= */
+
+@media (max-width: 900px) {
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .list-menu ul {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    /* SECTION 01 */
+
+    .section-01 {
+        flex-direction: column;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .img-section-01 {
+        width: 100%;
+        max-width: 450px;
+    }
+
+    .div-02 {
+        max-width: 100%;
+        font-size: 18px;
+    }
+
+    /* SECTION 02 */
+
+    .section-02 {
+        padding: 40px 20px;
+    }
+
+    .paragrafo-section-2 {
+        max-width: 100%;
+        font-size: 17px;
+    }
+
+    /* SECTION 03 */
+
+    .section-03 {
+        padding: 40px 20px;
+    }
+
+    .btn-ligar,
+    .section-03 button {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* SECTION 04 */
+
+    .section-04 {
+        flex-direction: column;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .div-caixa {
+        max-width: 100%;
+    }
+
+    .div-img {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div-img img {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+    }
+
+    /* POPUP */
+
+    .popup-conteudo {
+        width: 90%;
+        max-width: 400px;
+    }
+
+}
