@@ -1,0 +1,191 @@
+/* ================================= */
+/* RESPONSIVIDADE RLS GUINCHO */
+/* ================================= */
+
+
+/* ================= TABLETS ================= */
+
+@media (max-width:1024px){
+
+    header{
+        padding:20px 30px;
+    }
+
+
+    .section-01,
+    .section-04{
+        gap:30px;
+    }
+
+
+    .img-section-01{
+        width:380px;
+    }
+
+
+    .div-img img{
+        width:220px;
+        height:180px;
+    }
+
+}
+
+
+
+/* ================= CELULARES ================= */
+
+@media (max-width:768px){
+
+
+    /* HEADER */
+
+    header{
+        flex-direction:column;
+        gap:20px;
+        padding:20px;
+        text-align:center;
+    }
+
+
+    .div-title h1{
+        font-size:1.6rem;
+    }
+
+
+    .list-menu ul{
+        flex-direction:column;
+        gap:15px;
+    }
+
+
+
+    /* SECTION 01 */
+
+    .section-01{
+
+        flex-direction:column;
+        padding:50px 25px;
+        text-align:center;
+
+    }
+
+
+    .img-section-01{
+
+        width:100%;
+        max-width:450px;
+
+    }
+
+
+    .div-02{
+
+        max-width:100%;
+        font-size:22px;
+
+    }
+
+
+
+    /* SECTION 02 */
+
+
+    .section-02{
+
+        padding:50px 25px;
+
+    }
+
+
+    .paragrafo-section-2 h2{
+
+        font-size:1.8rem;
+
+    }
+
+
+    .paragrafo-section-2 p{
+
+        font-size:17px;
+
+    }
+
+
+
+
+    /* SECTION 03 */
+
+
+    .section-03{
+
+        padding:50px 25px;
+
+    }
+
+
+    .vantagens{
+
+        flex-direction:column;
+        align-items:center;
+
+    }
+
+
+    .card{
+
+        width:100%;
+        max-width:400px;
+
+    }
+
+
+
+
+    /* SECTION 04 */
+
+
+    .section-04{
+
+        flex-direction:column;
+        text-align:center;
+        padding:50px 25px;
+
+    }
+
+
+    .div-caixa{
+
+        max-width:100%;
+
+    }
+
+
+    .div-img{
+
+        flex-direction:column;
+        align-items:center;
+
+    }
+
+
+    .div-img img{
+
+        width:100%;
+        max-width:420px;
+        height:auto;
+
+    }
+
+
+
+    /* POPUP */
+
+
+    .popup-conteudo{
+
+        width:90%;
+
+    }
+
+
+}
